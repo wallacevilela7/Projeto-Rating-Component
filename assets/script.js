@@ -1,19 +1,25 @@
 let ratingArea = document.querySelector(".rating-area");
-let frm = document.querySelector('form');
-let selected = document.querySelector('.count-selecteds');
+let thanksArea = document.querySelector(".thanks-area");
+let resp = document.querySelector('.count-selecteds');
+let submitButton = document.querySelector("#submitButton");
 
 
-frm.addEventListener("click", ()=>{
 
-    let clickedOption = Number(frm.inOption.target);
-    console.log(clickedOption);
+
+let options = document.querySelector("#optionFather");
+
+options.addEventListener('click', (e)=>{
+
+    let clicked = e.target.id;
+    let selectedOption = document.querySelector(`#${clicked}`);
+    let rating = e.target.value;
+
+    selectedOption.classList.add("selected");
+    resp.innerHTML = `You marked ${rating} out of 5`;
 });
 
 
-frm.addEventListener("submit", (e) => {
+submitButton.addEventListener("click", ()=>{
     ratingArea.style.display = 'none';
-    let thanksArea = document.querySelector('.thanks-area').style.display = 'flex';
-    
-
-    e.preventDefault();
+    thanksArea.style.display = 'flex';
 });

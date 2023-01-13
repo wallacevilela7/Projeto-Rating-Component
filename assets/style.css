@@ -60,53 +60,54 @@ body {
 
 .question,
 .question-desc,
-.rating-buttons,
 .button {
     margin-top: 10px;
     margin-bottom: 15px;
 }
 
 .rating-buttons {
+    margin-top:20px;
+    margin-bottom:20px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+}
+.options {
+    margin-bottom:15px;
+    margin-left: -35px;
+    display: flex;
     justify-content: space-between;
 }
-.buttons-options {
+
+.option {
     display:flex;
-    justify-content: space-between;
-}
-
-.note {
-    text-align: center;
-    width: 40px;
+    justify-content: center;
+    align-items: center;
+    width:40px;
     height: 40px;
-    cursor:pointer!important;
-    color: hsl(216, 19%, 85%);
-    background-color: #242e36;
-    opacity: 50%;
-    border: none;
     border-radius: 50%;
+    color:hsl(213, 19%, 18%);
+    background-color: hsl(217, 12%, 63%);
+    cursor:pointer;
 }
-
-.rating-buttons .button {
-    margin-top:25px;
-    display:block;
-    width:100%;
-    height: 35px;
+.option:hover {
     background-color: hsl(25, 97%, 53%);
-    border: none;
-    border-radius: 20px;
-    color: hsl(0, 0%, 100%);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 2px;
+    color: #fff;
 }
 
-
-
-
+.button {
+    display: inline-block;
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius: 20px;
+    color:hsl(0, 0%, 100%);
+    background-color:hsl(25, 97%, 53%)
+}
+.button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: #fff;
+    font-weight: 700;
+}
 
 /* THANKS AREA */
 
@@ -159,16 +160,4 @@ body {
     background-color: hsl(25, 97%, 53%);
     color: #fff;
     opacity: 1;
-}
-
-.selected-previous {
-    background-color: hsl(217, 12%, 63%);
-    color: #fff;
-    opacity: 1;
-}
-
-.button:hover {
-    color: hsl(25, 97%, 53%);
-    background-color: #fff;
-    font-weight: 700;
 }
