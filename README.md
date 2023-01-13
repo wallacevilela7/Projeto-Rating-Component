@@ -1,0 +1,2 @@
+# Projeto-Rating-Component
+conseguiiiiiiiiiiiiiiiiiiiiii
