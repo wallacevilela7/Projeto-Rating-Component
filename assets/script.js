@@ -14,6 +14,7 @@ options.addEventListener('click', (e)=>{
     let selectedOption = document.querySelector(`#${clicked}`);
     let rating = e.target.value;
 
+
     selectedOption.classList.add("selected");
     resp.innerHTML = `You marked ${rating} out of 5`;
 });
