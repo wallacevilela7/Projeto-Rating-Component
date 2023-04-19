@@ -1,7 +1,5 @@
 
-# Rating Component HTML/CSS/JS
-
-<h1 align="center"> Rating Component Rockeseat </h1>
+<h1 align="center"> Rating Component</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
