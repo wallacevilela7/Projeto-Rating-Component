@@ -8,7 +8,7 @@
 </p>
 
 <p> 
-Meu objetivo com esse projeto foi de praticar o desenvolvimento de interfaces e melhorar minhas habilidades. Considero que o desafio com este layout foi estilizar os inputs do formulário.
+Meu objetivo com esse projeto foi praticar o desenvolvimento de interfaces e melhorar minhas habilidades. Considero que o desafio com este layout foi estilizar os inputs do formulário.
 </p>
 
 <br>
