@@ -16,10 +16,10 @@ Meu objetivo com esse projeto foi de praticar o desenvolvimento de interfaces e 
 <br>
 
 <p align="center">
-  <img src="assets/images/Design1.jpeg.png" width="100%">
+  <img src="assets/images/Design1.jpeg" width="100%">
 </p>
 <p align="center">
-  <img src="assets/images/Design2.jpeg.png" width="100%">
+  <img src="assets/images/Design2.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
