@@ -1,4 +1,3 @@
-
 <h1 align="center"> Rating Component</h1>
 
 <p align="center">
